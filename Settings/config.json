@@ -1,0 +1,23 @@
+{
+  "PROXIES": {
+    "http": "http://x.x.x.x:xxxx/",
+    "https": "http://x.x.x.x:xxxx/"
+  },
+  "API": {
+    "KEY": "key",
+    "URL": "https://axioma-api.proximaresearch.com/",
+    "SIGN": "1",
+    "WAIT_TIME": 30,
+    "MAX_RETRIES": 5,
+    "TIMEOUT": 150,
+    "THREADS": 16
+  },
+  "SQL": {
+    "DSN": "Driver={SQL Server Native Client 11.0};Server=xxxx;Trusted_Connection=yes;",
+    "DSN_SqlAlchemy": "mssql+pyodbc://?odbc_connect=Driver%3D%7BSQL+Server+Native+Client+11.0%7D%3BServer%xxxx%3BTrusted_Connection%3Dyes%3B"
+  },
+  "RUNTIME": {
+    "UPDATE": 1646138486
+  },
+  "SEVERITY_LVL": "INFO"
+}
